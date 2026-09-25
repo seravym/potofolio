@@ -21,13 +21,9 @@ body {
   color: var(--dark);
 }
 
-.desktop-bg {
-  width: 100%;
-}
-
 .window {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   background-color: var(--paper);
   border: 2px solid var(--dark);
@@ -270,17 +266,11 @@ body {
 
 .status-bar {
   display: flex;
-
   justify-content: space-between;
-
   gap: 10px;
-
   padding: 8px 12px;
-
   background-color: var(--silver);
-
-  border-top: 2px solid var(--dark);
-
+  border-top: 2px solid var(--dark)
   font-size: 11px;
 }
 
