@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portofolio - Sabrina Clarissa Hendra (535250112)</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="desktop-bg">
+        <div class="window">
+            <div class="title-bar">
+                <span class="title-bar-icon">✿</span>
+                <span class="title-bar-text">
+                    C:\Users\Sabrina\Portofolio\index.html
+                </span>
+
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize">_</button>
+                    <button aria-label="Maximize">□</button>
+                    <button aria-label="Close">✕</button>
+                </div>
+            </div>
+
+            <!-- header -->
+            <header class="head">
+                <img src="header.jpeg" alt="Header">
+            </header>
+
+            <!-- navbar -->
+            <nav class="tab-bar" aria-label="Navigasi Utama">
+                <span class="tab-name">
+                    Sabrina | 535250112
+                </span>
+
+                <button class="hamburger" id="menu-toggle" type="button" aria-controls="nav-menu" aria-expanded="false"
+                    aria-label="Buka menu navigasi">
+                    <span class="hamburger_bar"></span>
+                    <span class="hamburger_bar"></span>
+                    <span class="hamburger_bar"></span>
+                </button>
+
+                <ul class="tab-list" id="nav-menu">
+                    <li><a href="#notes" class="tab">Beranda</a></li>
+                    <li><a href="#pendidikan" class="tab">Pendidikan</a></li>
+                    <li><a href="#proyek" class="tab">Proyek</a></li>
+                </ul>
+            </nav>
+
+            <!-- main -->
+            <main class="main-grid">
+                <!-- kiri -->
+                <aside class="col col-left">
+
+                    <div class="panel avatar">
+                        <div class="avatar-box">
+                            <div class="avatar-placeholder">
+                                <img src="icon.jpeg" alt="Foto">
+                            </div>
+
+                            <ul class="info-list">
+                                <li><span>Name</span>: Sabrina</li>
+                                <li><span>NIM</span>: 535250112</li>
+                                <li><span>Kampus</span>:Universitas Tarumanagara</li>
+                                <li><span>Prodi</span>:Teknik Informatika</li>
+                            </ul>
+                        </div>
+
+                        <!-- link -->
+                        <div class="panel link">
+                            <div class="panel-header">
+                                Links
+                            </div>
+                            <a href="https://github.com/seravym" target="_blank">
+                                → GitHub
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+
+
+                <!-- tengah -->
+                <section class="col col-center">
+                    <div class="panel notepad" id="notes">
+                        <div class="notepad-titlebar">
+                            📝 notes.txt — Beranda
+                        </div>
+                        <div class="notepad-body">
+                            <p>
+                                Selamat datang di portofolio saya.
+                                Saya mahasiswa Teknik Informatika
+                                di Universitas Tarumanagara yang sedang mendalami frontend, saya sangat senang dengan matkul ini karena bisa menghias-hias. love u frontend (˶>⩊<˶)
+                            </p>
+
+                            <p>
+                                Silahkan melihat-lihat
+                                riwayat pendidikan dan proyek
+                                yang sudah saya kerjakan dengan memilih tab di atas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="panel edu" id="pendidikan">
+                        <div class="panel-header">
+                            Riwayat Pendidikan
+                        </div>
+                        <table class="edu-table" <tr>
+                            <td class="edu-label">
+                                SD
+                            </td>
+
+                            <td>
+                                Methodist
+                                <br>
+                                <small>2016 — 2019</small>
+                            </td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="edu-label">
+                                    SMP
+                                </td>
+
+                                <td>
+                                    SMP Budi Agung
+                                    <br>
+                                    <small>2019 — 2022</small>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="edu-label">
+                                    SMA
+                                </td>
+
+                                <td>
+                                    SMA Budi Agung
+                                    <br>
+                                    <small>2022 — 2025</small>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="edu-label">
+                                    Kuliah
+                                </td>
+
+                                <td>
+                                    Universitas Tarumanagara —
+                                    S1 Informatika
+                                    <br>
+                                    <small>2023 — sekarang</small>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+
+
+                <!-- kanan -->
+                <aside class="col col-right">
+                    <div class="panel project" id="proyek">
+                        <div class="panel-header">
+                            Proyek
+                        </div>
+
+                        <a href="https://github.com/seravym/TWITTER" class="retro-button">
+                            Backend - Twitter (link)
+                        </a>
+                        <a href="https://github.com/seravym/expense-tracker" class="retro-button">
+                            Frontend - expense tracker (link)
+                        </a>
+                        <a href="Laporan_Final_Sistem_Rekomendasi_Lagu_DS.pdf" class="retro-button">
+                            Data Structure - songs recomendation system (Download pdf)
+                        </a>
+                    </div>
+                </aside>
+            </main>
+
+
+            <!-- footer -->
+            <footer class="status-bar" id="kontak">
+                <span>
+                    © 2026 Sabrina Clarissa Hendra —
+                    NIM 535250112
+                </span>
+                <span class="status-right">
+                    Universitas Tarumanagara
+                </span>
+            </footer>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script>
+        const hamburgerBtn =
+            document.getElementById('menu-toggle');
+
+        const tabList =
+            document.getElementById('nav-menu');
+
+        hamburgerBtn.addEventListener('click', function () {
+            const isOpen =
+                tabList.classList.toggle('open');
+
+            hamburgerBtn.setAttribute(
+                'aria-expanded',
+                isOpen ? 'true' : 'false'
+            );
+        });
+
+        document.querySelectorAll('.tab').forEach(function (tab) {
+            tab.addEventListener('click', function () {
+                document
+                    .querySelectorAll('.tab')
+                    .forEach(function (t) {
+                        t.classList.remove('active');
+                    });
+
+                tab.classList.add('active');
+                tabList.classList.remove('open');
+                hamburgerBtn.setAttribute(
+                    'aria-expanded',
+                    'false'
+                );
+            });
+        });
+    </script>
+</body>
+
+</html>
